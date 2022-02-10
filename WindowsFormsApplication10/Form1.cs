@@ -46,9 +46,10 @@ namespace WindowsFormsApplication10
 
         private void button3_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
+            
             int sayi;
             sayi = Convert.ToInt32(textBox1.Text);
+            listBox1.Items.Clear();
             for (int i=0; i < 11; i++)
             {
                 listBox1.Items.Add(i + " x " + textBox1.Text + "="+ i *sayi);
